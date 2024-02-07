@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap");
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.home_main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.home_welcome {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.welcome_left {
+  margin-right: 2rem;
+  width: 35rem;
+}
+
+.welcome-img1 {
+  width: 20rem;
+  height: 20rem;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
+}
+.welcome-img1 img{
+  width: 20rem;
+  height: 20rem;
+} 
+.welcome-img2 {
+  width: 16rem;
+  height: 16em;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
+  position: relative;
+  bottom: 6rem;
+  left: 16rem;
+  background-color: white;
+}
+.welcome-img2 img {
+  width: 16rem;
+  height: 16rem;
+}
+.welcome_right {
+  margin-left: 2rem;
+  width: 40rem;
+  word-wrap: break-word;
+}
+
+.home_aboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.aboutUs_left {
+  margin-right: 2rem;
+  padding-right: 4rem;
+  width: 35rem;
+  word-wrap: break-word;
+}
+.aboutUs_right {
+  margin-left: 2rem;
+  width: 40rem;
+}
+
+.about-img1 {
+  width: 25rem;
+  height: 20rem;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
+}
+.about-img1 img{
+  width: 25rem;
+  height: 20rem;
+}
+.about-img2 {
+  width: 16rem;
+  height: 16rem;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
+  position: relative;
+  bottom: 6rem;
+  left: 16rem;
+  background-color: white;
+  padding: 20px;
+}
+.about-img2 li {
+  padding-left: 10px;
+}
+.subHeading {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.verified_svg {
+  display: inline-block;
+  padding-top: 3px;
+  height: 1.6875rem;
+}
+.aboutUs_mission {
+  width: 11rem;
+  height: 7rem;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(82, 211, 216, 0.2);
+  padding: 3px;
+  border-radius: 5px;
+  display: inline-block;
+  margin:2rem 3rem 2rem 0;
+}
+.aboutUs_mission h4 {
+  display: inline-block;
+  font-size: 1rem;
+  color: #219d80;
+  padding:0 0 3px 5px;
+}
+
+.vision_svg {
+  width: 2rem;
+  height: 1.6875rem;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.aboutUs_vision h4 {
+  display: inline-block;
+  font-size: 1rem;
+  color: #219d80;
+  padding:0 0 3px 10px;
+}
+.aboutUs_vision {
+  width: 11rem;
+  height: 7rem;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(82, 211, 216, 0.2);
+  padding: 3px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.read_more_btn a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.read_more_btn{
+    width: 6rem;
+    height: 2rem;
+    display: block;
+    border: 0.5px;
+    background-color:#29ADB2 ;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.read_more_btn:hover{
+    
+    border: 1px solid black;
+    color: black;
+    opacity: 0.3;
+}
+
+.read_more_btn a:hover{
+    color: black;
+}
+
+.home_getInvolved{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  width: 80%;
+}
+
+.home_getInvolved h3{
+  margin: 1rem;
+}
+.getInvolved_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.getInvolved_img{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10pxs;
+  margin: 20px 10rem 20px 20px;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
+
+}
+.getInvolved_img img{
+  width: 20rem;
+  height: 20rem;
+}
+.getInvolved_list{
+margin-left:10rem; 
+justify-self: baseline;
+
+}
+.getInvolved_list li{
+  font-size: 2rem;
+  padding: 10px;
+}
